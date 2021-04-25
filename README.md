@@ -12,7 +12,7 @@ composer require kasraghoreyshi/persian-faker
 
 You could use this package as an instance of ```Faker\Generator``` as you normally would use in factories.
 
-| Functions  | Description |
+| Methods  | Description |
 | ------------- | ------------- |
 | ->persianWord  | Generates a random persian word. Example: 'مهد'  |
 | ->persianWords($nb = 3)  | Generates a random array of persian words. Example:  ["آتش","باغ","میز",]  |
