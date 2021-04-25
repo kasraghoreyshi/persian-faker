@@ -1,0 +1,25 @@
+{
+    "name": "kasraghoreyshi/persian-faker",
+    "description": "Persian faker functions for laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "kasraghoreyshi",
+            "email": "kasra.ghoreyshi84@gmail.com"
+        }
+    ],
+    "require": {},
+    "license" : "MIT",
+    "autoload": {
+        "psr-4": {
+          "Kasraghoreyshi\\PersianFaker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kasraghoreyshi\\PersianFaker\\PersianFakerServiceProvider"
+            ]
+        }
+    }
+}
