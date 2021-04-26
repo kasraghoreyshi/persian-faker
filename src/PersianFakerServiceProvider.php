@@ -17,7 +17,7 @@ class PersianFakerServiceProvider extends ServiceProvider
     {
         $this->app->singleton(Generator::class, function($app) {
 
-            $faker = \Faker\Factory::create();
+            $faker = \Faker\Factory::create(config('app.faker_locale'));
 
             $faker->addProvider((new PersianFakerClass($faker)));
             
